@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 7</title>
+    <style>
+        button{
+            height:50px;
+            width:50px;
+        }
+        input{
+            height:50px;
+            width:96%;
+            text-align:right;
+        }
+    </style>
+    <script>
+        function display(x) {
+            document.getElementById("txtResult").value += x
+        }
+
+        function calc() {
+            let x = document.getElementById("txtResult").value
+            let y = eval(x)
+            document.getElementById("txtResult").value = y
+        }
+    </script>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="4">
+                <input id="txtResult" type="text" placeholder="0" readonly/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="display('1')">1</button>
+            </td>
+            <td>
+                <button onclick="display('2')">2</button>
+            </td>
+            <td>
+                <button onclick="display('3')">3</button>
+            </td>
+            <td>
+                <button onclick="display('+')">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="display('4')">4</button>
+            </td>
+            <td>
+                <button onclick="display('5')">5</button>
+            </td>
+            <td>
+                <button onclick="display('6')">6</button>
+            </td>
+            <td>
+                <button onclick="display('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="display('7')">7</button>
+            </td>
+            <td>
+                <button onclick="display('8')">8</button>
+            </td>
+            <td>
+                <button onclick="display('9')">9</button>
+            </td>
+            <td>
+                <button onclick="display('*')">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="document.getElementById('txtResult').value=''">C</button>
+            </td>
+            <td>
+                <button onclick="display('0')">0</button>
+            </td>
+            <td>
+                <button onclick="calc()">=</button>
+            </td>
+            <td>
+                <button onclick="display('/')">/</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
