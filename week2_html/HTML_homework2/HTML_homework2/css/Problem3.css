@@ -1,0 +1,12 @@
+﻿*{
+    font-family:Calibri;
+    font-style:italic;
+}
+
+table {
+    background-color: lightpink;
+}
+
+.btnSearch{
+    width:100%;
+}

@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Facebook Register Form</title>
+    <link href="css/Problem5.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        fakebook
+    </div>
+    <div class="title">
+        <h1>Registration</h1>
+        <h3>It is safe and it will always be!</h3>
+    </div>
+    <div>
+        <div class="row" style="width: 38%; margin: 1%;">
+            <form>
+                <fieldset style="height: 250px;">
+                    <legend style="text-align:center;">None-Important Information</legend>
+
+                    <div class="innerRow">
+                        <input type="text" placeholder="First Name" style="width: 47%; border-radius: 5px;" tabindex="1"/> 
+                        <input type="text" placeholder="Last Name" style="width: 47%; border-radius: 5px;" tabindex="2"/>
+                    </div>
+                    <div class="innerRow">
+                        <input type="email" placeholder="Your Email" style="width: 47%; border-radius: 5px;" tabindex="3"/> 
+                        <input type="tel" placeholder="Phone number" style="width: 47%; border-radius: 5px;" tabindex="4"/>
+                    </div>
+                    <div class="innerRow">
+                        <input type="password" placeholder="Your Password" style="width: 47%; border-radius: 5px;" /> 
+                        <input type="text" placeholder="Website" style="width:47%;border-radius:5px;" />
+                    </div>
+                    <div class="innerRow">
+                        <label for="birthday">Birthday</label><br />
+                        <input type="datetime-local" id="birthday" style="border-radius:5px;" />
+                    </div>
+                    <div class="innerRow">
+                        <input type="radio" name="gender" id="female" /><label for="female">Female</label>
+                        <input type="radio" name="gender" id="male" /><label for="male">Male</label>
+                        <input type="radio" name="gender" id="other" checked/><label for="other">Other</label>
+                    </div>
+                </fieldset>
+
+                <input type="submit" value="Clear Form" class="btnClear"/>
+            </form>
+        </div>
+        <div class="row" style="width:58%;margin:1%;">
+            <form>
+                <fieldset style="height:250px;">
+                    <legend>Important Information *required</legend>
+
+                    <div class="innerRow">
+                        <input type="text" placeholder="Country" style="width: 31%; border-radius: 5px;"required/> 
+                        <input type="text" placeholder="Village" style="width: 31%; border-radius: 5px;"required/> 
+                        <input type="text"placeholder="District" style="width: 31%; border-radius: 5px;"required/>
+                    </div>
+                    <div class="innerRow">
+                        <input type="text" placeholder="Street"  style="width: 31%; border-radius: 5px;" required/>
+                        <input type="text"placeholder="Nr"  style="width: 12%; border-radius: 5px;" required/>
+                        <input type="text"placeholder="Floor"  style="width: 12%; border-radius: 5px;" required/>
+                        <input type="text" placeholder="Ap Nr"  style="width: 12%; border-radius: 5px;" required/>
+                    </div>
+                    <div class="innerRow">
+                        <label for="colorPicker">Door Color</label><br />
+                        <input id="colorPicker" type="color" style="width: 31%; border-radius: 5px;"/>
+                        <input type="text" placeholder="Water Meter Nr" style="width: 31%; border-radius: 5px;" required/>
+                        <input type="text"placeholder="Aunt Panties Size" style="width: 31%; border-radius: 5px;" required/>
+                    </div>
+                    <div class="innerRow">
+                        <label>More Personal Information</label>
+                        <textarea rows="5" style="width: 100%; border-radius: 5px;" placeholder="Give Us More Information!!!" required></textarea>
+                    </div>
+
+                </fieldset>
+
+                <input type="submit" value="Register" class="btnReg"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+﻿* {
+    font-family:Calibri;
+}
+h1 {
+    color: #0f2a3c;
+}
+.row_outer{
+}
+
+.row_outer:after{
+    display:table;
+    clear:both;
+}
+
+.columnouter {
+    float:left;
+}
+
+.product_container{
+    width:600px;
+    overflow-y:auto;
+}
+
+.product {
+    color: #0f2a3c;
+    width: 180px;
+    height: 180px;
+    float: left;
+    background-color: #eae3e3;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.product > a {
+    color: #0f2a3c;
+}
+
+.price-tag-container {
+    text-align: right;
+}
+
+.price-tag {
+    color: white;
+    background-color: #0f2a3c;
+    border-top-left-radius:5px;
+}
+
+/*input[type="range"]:before{
+    content:attr(min);
+}
+
+input[type="range"]:after {
+    content: attr(max) "";
+}*/
+
+label{
+    margin-bottom:20px;
+    display:block;
+    text-align:center;
+}
+
+.PriceSlider:before {
+    content: attr(min);
+    margin-top: -15px;
+    display: block;
+}
+
+
+.PriceSlider:after {
+    content: attr(max);
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.RAMSlider:before {
+    content: attr(min) "";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.RAMSlider:after {
+    content: attr(max) "";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.DiscSlider:before {
+    content: attr(min) "GB";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.DiscSlider:after {
+    content: attr(max) "GB";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.DisplaySlider:before {
+    content: attr(min) "";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.DisplaySlider:after {
+    content: attr(max) "";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.WeightSlider:before {
+    content: attr(min) "GB";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.WeightSlider:after {
+    content: attr(max) "GB";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.WarrSlider:before {
+    content: attr(min) "month";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+.WarrSlider:after {
+    content: attr(max) "month";
+    margin-top: -15px;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

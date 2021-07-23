@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Problem 3</title>
+    <link href="css/Problem3.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="content">
+        <form>      
+            
+            <table>
+                <tr>
+                    <th colspan="6">
+                        <h1>FLIGHT ORDER</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height:50px;vertical-align:central;">
+                        <label>From</label><br />
+                        <input type="text" placeholder="enter a city" /><br />
+                    </td>
+                    <td colspan="3" style="height: 50px; vertical-align: central;">
+                        <label>To</label><br />
+                        <input type="text" placeholder="enter a city"/><br />
+                        
+                    </td>
+                </tr>
+                <tr style="height:10px;margin:0;padding:0;">
+                    <td colspan="3"></td>
+                    <td colspan="3">
+                        <input type="checkbox" /> Prefer directs
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label>Departure Date</label><br />
+                        <input id="deptDate" type="datetime" />
+                        <script>
+                            function myFunction() {
+                                var date = new Date();
+                                var d = date.getUTCDate();
+                                var m = date.getUTCMonth() + 1;
+                                var y = date.getUTCFullYear();
+                                curDate = d + " . " + m + " . " + y;
+                                document.getElementById('deptDate').value = curDate;
+                            }
+                            myFunction();
+                        </script>
+                    </td>
+                    <td colspan="3">
+                        <label>Time Interval</label><br />
+                        <input type="time" value="00:20" /> <input type="time" value="05:00" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label>Return Date</label><br />
+                        <input id="reDate" type="datetime" />
+                        <script>
+                            function myFunction1() {
+                                var reDate = new Date();
+                                var d = reDate.getUTCDate() + 4;
+                                var m = reDate.getUTCMonth() + 1;
+                                var y = reDate.getUTCFullYear();
+                                reDate = d + " . " + m + " . " + y;
+                                document.getElementById('reDate').value = reDate;
+                            }
+                            myFunction1();
+                        </script>
+                    </td>
+                    <td colspan="3">
+                        <label>Time Interval</label><br />
+                        <input type="time" value="16:00" /> <input type="time" value="22:00" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>12+</label><br />
+                        <input type="number" value="0" style="width:40px;" />
+                    </td>
+                    <td>
+                        <label>2-12</label><br />
+                        <input type="number" value="0" style="width:40px;" />
+                    </td>
+                    <td>
+                        <label>0-2</label><br />
+                        <input type="number" value="0" style="width:40px;" />
+                    </td>
+                    <td colspan="3">
+                        <label>Choose class</label><br />
+                        <select>
+                            <option>
+                                Economy
+                            </option>
+                            <option>
+                                First class
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td colspan="3">
+                        <input type="submit" class="btnSearch" value="Search" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿*{
+    font-family:Calibri;
+}
+
+body{
+    background-color:#0094ff;
+    text-align:center;
+}
+
+label{
+    color:white;
+}
+
+legend{
+    color:white;
+    text-align:center;
+}
+fieldset {
+    border-color: white;
+    border-radius: 8px;
+}
+
+.header{
+    font-size:70px;
+    font-weight:bolder;
+    text-align:center;
+    color:white;
+}
+
+.title {
+    text-align: center;
+    color:white;
+}
+
+.row{
+    float:left;
+    text-align:left;
+}
+
+.innerRow{
+    margin-left:0px;
+    margin-bottom:1%;
+}
+
+.btnClear {
+    width: 100%;
+    border-radius: 8px;
+    padding: 3%;
+    font-size: 18px;
+    color: #0094ff;
+}
+
+.btnReg {
+    width: 100%;
+    border-radius: 8px;
+    padding: 2%;
+    font-size: 18px;
+    color: #0094ff;
+}

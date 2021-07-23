@@ -1,0 +1,20 @@
+﻿*{
+    font-family:Calibri;
+}
+
+.content {
+    max-width: 40%;
+    background-color:#ede8e8;
+    padding:2%;
+    padding-bottom:2%;
+}
+
+.lefttbl {
+    float: left;
+    min-width:40%;
+}
+
+.txtinput{
+    min-width:98%;
+    margin:2%;
+}
