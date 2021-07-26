@@ -1,0 +1,59 @@
+﻿*{
+    font-family:Arial;
+}
+
+.header{
+    width:100%;
+    height:100px;
+    background-image:url('../img/bg.jpg');
+}
+
+.btnApply{
+    vertical-align:central;
+}
+
+.content-holder{
+    background-color:lightgrey;
+    padding:10px;
+}
+
+    .content-holder .paging{
+        display:block;
+        margin-top:80px;
+    }
+
+    .content-holder .paging ul {
+        list-style-type: none;
+    }
+
+        .content-holder .paging ul li{
+            display:inline-block;
+        }
+
+            .content-holder .paging ul li input[type=button] {
+                background-color:dodgerblue;
+                border:none;
+                padding: 5px;
+                color:white;
+            }
+
+    .content-holder .article-holder {
+        display: -webkit-flex;
+        display: flex;
+        width: 600px;
+        height: 350px;
+    }
+
+        .content-holder .article-holder .article {
+            width: 100%;
+            height: 100%;
+            margin: 10px;
+            background-color: white;
+            padding:20px;
+        }
+
+        .content-holder .article-holder .article a{
+            text-decoration:none;
+            color:navy;
+            font-weight:bold;
+        }

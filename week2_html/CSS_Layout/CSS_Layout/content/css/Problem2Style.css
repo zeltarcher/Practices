@@ -1,0 +1,118 @@
+﻿*{
+    font-family:Arial;
+    color:#d0cece;
+}
+
+body{
+}
+
+.footer {
+    background-color: #313131;
+    display: block;
+    vertical-align: bottom;
+}
+
+    .footer .inforow {
+        display: block;
+    }
+
+        .footer .inforow .office {
+            display: inline-grid;
+            margin: 20px 0 0 100px;
+            vertical-align: top;
+        }
+            .footer .inforow .office a {
+                font-size: 20px;
+                color: #6f6b6b;
+                font-weight:bold;
+            }
+
+            .footer .inforow .office p {
+                font-size: 20px;
+                color:#808080;
+            }
+
+        .footer .inforow .services {
+            display: inline-grid;
+            vertical-align: central;
+            margin: 0 0 0 40px;
+        }
+
+            .footer .inforow .services ul li {
+                list-style-type: none;
+                margin-bottom: 15px;
+            }
+
+            .footer .inforow .services ul li hr {
+                border: 1px solid #808080;
+            }
+
+            .footer .inforow .services ul li a {
+                text-decoration: none;
+                font-size: 15px;
+            }
+
+        .footer .inforow .resources {
+            display: inline-grid;
+            vertical-align: central;
+            margin: 0 0 0 40px;
+        }
+            .footer .inforow .resources a {
+                font-size: 25px;
+            }
+            .footer .inforow .resources ul li hr {
+                border: 1px solid #808080;
+            }
+
+            .footer .inforow .resources ul li a {
+                text-decoration: none;
+                font-size: 15px;
+            }
+
+            .footer .inforow .resources ul li {
+                list-style-type: none;
+                margin-bottom: 15px;
+            }
+
+        .footer .inforow .our_locations {
+            display: inline-grid;
+            vertical-align: central;
+            margin: 0 100px 0 80px;
+        }
+            .footer .inforow .our_locations a {
+                font-size: 25px;
+            }
+
+    .footer .mediarow {
+        width:100%;
+        height: 70px;
+        background-color: black;
+        display:table;
+    }
+
+        .footer .mediarow .copyright {
+            padding: 0 20px 0 100px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .footer .mediarow .fb {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: right;
+            padding: 0 0 0 0;
+        }
+
+        .footer .mediarow .tweeter {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: right;
+            padding: 0 0 0 0;
+        }
+
+        .footer .mediarow .in {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: right;
+            padding: 0 200px 5px 0;
+        }

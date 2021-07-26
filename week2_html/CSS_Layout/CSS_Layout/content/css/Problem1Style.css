@@ -1,0 +1,201 @@
+﻿*{
+    font-family:Calibri;
+    font-size:20px;
+}
+
+.header {
+    background-color: #072b45;
+    width: 100%;
+    height: 120px;
+    color:white;
+    vertical-align:top;
+}
+
+.antraLogo{
+    vertical-align:central;
+    float:left;
+    margin:12px;
+}
+
+.rightHeader {
+    float: right;
+    margin: 20px;
+    vertical-align:top;
+}
+
+.userControls{
+    text-align:right;
+}
+
+.mainmenu{
+    text-align:right;
+}
+
+.header > .rightHeader > .userControls > .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 0 40px;
+    width:65px;
+}
+
+    .header > .rightHeader > .userControls > .dropdown a:hover {
+        color: #00ffff;
+    }
+
+
+    .header > .rightHeader > .userControls > .dropdown > .dropdown-content {
+        display: none;
+        background-color: #5486ee;
+        width: 100%;
+        height: 55px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px #808080;
+        padding: 0 10px 5px 10px;
+        z-index: 1;
+        text-align: left;
+    }
+
+.header > .rightHeader > .userControls > .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+}
+
+.header > .rightHeader > .userControls > .dropdown > .dropdown-content > a {
+    color: white;
+    text-decoration: none;
+    padding-bottom:5px;
+}
+
+.header > .rightHeader > .userControls > .dropdown > .dropdown-content > a:hover {
+    color: #00ffff;                
+}
+
+
+.btnSearch {
+    background: url(../img/searchicon.jpg) no-repeat;
+    background-size: 100%;
+    padding: 14px 14px 14px 14px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    vertical-align:top;
+    margin-left:-5px;
+    margin-top:1px;
+}
+
+.btnSearch:hover {
+    box-shadow: 2px 2px 2px 2px #00ff21;
+}
+
+.btnNoti {
+    background: url(../img/bell.jpg) no-repeat;
+    background-size: 100%;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.btnNoti:hover {
+    box-shadow: 2px 2px 2px 2px #00ff21;
+}
+
+.header .rightHeader .mainmenu .menu_list .menu_item .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 0 0px 0 0px;
+    width: 100%;
+}
+
+    .header .rightHeader .mainmenu .menu_list .menu_item .dropdown .dropdown-content {
+        display: none;
+        background-color: #5486ee;
+        width: 100%;
+        height: 55px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px #808080;
+        padding: 0;
+        z-index: 1;
+        text-align: left;
+    }
+
+        .header .rightHeader .mainmenu .menu_list .menu_item .dropdown .dropdown-content a {
+            color: white;
+            text-decoration: none;
+            padding-bottom: 5px;
+        }
+
+        .header .rightHeader .mainmenu .menu_list .menu_item .dropdown .dropdown-content a {
+            color: #00ffff;
+        }
+
+    .header .rightHeader .mainmenu .menu_list .menu_item .dropdown:hover .dropdown-content {
+        display: block;
+        position: absolute;
+    }
+
+.header .rightHeader .mainmenu .menu_list {
+}
+
+    .header .rightHeader .mainmenu .menu_list .menu_item {
+        display: inline-grid;
+    }
+
+    .header .rightHeader .mainmenu .menu_list .menu_item  a{
+        text-decoration:none;
+        color:white;
+        margin-left:40px;
+    }
+
+        .header .rightHeader .mainmenu .menu_list .menu_item a:hover{
+            color:aqua;
+        }
+
+@media only screen and (max-width:1400px){
+    .header {
+        height: 250px;
+    }
+    .header .antraLogo{width: 50%;}
+    .header .rightHeader {width: 50%;}
+}
+
+@media only screen and (max-width:1230px) {
+    .header {
+        height: 300px;
+    }
+
+        .header .antraLogo {
+            width: 50%;
+        }
+
+        .header .rightHeader {
+            width: 50%;
+        }
+}
+
+@media only screen and (max-width:814px) {
+    .header {
+        height: 350px;
+    }
+
+        .header .antraLogo {
+            width: 50%;
+        }
+
+        .header .rightHeader {
+            width: 50%;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 450px;
+    }
+
+        .header .antraLogo {
+            width: 50%;
+        }
+
+        .header .rightHeader {
+            width: 50%;
+        }
+}

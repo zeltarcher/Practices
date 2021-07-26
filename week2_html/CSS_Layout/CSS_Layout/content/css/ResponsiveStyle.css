@@ -1,0 +1,249 @@
+﻿*{
+    font-family:Arial;
+}
+
+body {
+    background-color:#808080;
+}
+
+h1 {
+    color: lawngreen;
+    padding: 0 0 0 2%;
+}
+
+.wrapper {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin: 0 10% 0 10%;
+}
+
+.wrapper header {
+    width: 100%;
+    height: 400px;
+    background-image:url("../img/4_bg.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%; /*stretch the img*/
+    position:relative;
+}
+
+    .wrapper header a {
+        color:white;
+        font-size:55px;
+        font-weight:bold;
+        position:absolute;
+        right:20px;
+        bottom:20px;
+    }
+
+    .wrapper nav {
+    }
+
+        .wrapper nav .menu-holder {
+            width: 100%;
+            background-color: lightgray;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            padding: 1px;
+            margin: 0;
+        }
+
+            .wrapper nav .menu-holder .menu_item input[type=button] {
+                width: 180px;
+                padding: 8%;
+                border-color: white;
+            }
+
+                .wrapper nav .menu-holder .menu_item input[type=button]:hover {
+                    background-color: #bebebe;
+                }
+
+    .wrapper .content {
+        margin: 0 2% 2% 2%;
+        display: grid;
+        grid-template-columns: 80% 1fr;
+        grid-gap: 2%;
+    }
+
+        .wrapper .content a{
+            color:greenyellow;
+        }
+
+        .wrapper .content .welcome {
+            border: 1px solid #bebebe;
+            border-radius: 15px;
+            margin: 2% 2% 0 2%;
+        }
+
+                .wrapper .content .welcome .welcome-item{
+                    padding: 2%;
+                }
+
+        .wrapper .content .promoting {
+            border: 1px solid #bebebe;
+            margin: 2%;
+            border-radius: 15px;
+        }
+
+            .wrapper .content .promoting .promoting-item {
+                padding: 2%;
+                display: grid;
+                grid-template-columns: 20% 1fr;
+                grid-template-rows: 1fr;
+                grid-template-areas:
+                    "image content"
+                    "image footer";
+                grid-gap: 2%;
+            }
+
+        .wrapper .content .news {
+            height:auto;
+            background-color: lightgray;
+            border: 1px solid #bebebe;
+            padding: 0 7% 2% 7%;
+            border-radius: 15px;
+            margin:7% 0 0 0;
+        }
+
+            .wrapper .content .news .news-item {
+                padding-bottom:10%;
+            }
+
+        .wrapper .content .msg {
+            height:80%;
+            border: 1px solid #bebebe;
+            padding: 0 7% 0 7%;
+            border-radius: 15px;
+            margin-top: -10px;
+        }
+
+            .wrapper .content .msg .msg-item {
+                padding: 2%;
+            }
+
+    .wrapper .footer {
+        background-color: greenyellow;
+        width: 100%;
+        height: 100px;
+    }
+
+        .wrapper .footer .footer-content {
+            padding: 45px 45px 45px 150px;
+        }
+
+/*TABLET*/
+@media screen and (max-width: 1200px){
+    .wrapper {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+
+    .wrapper header a{
+        font-size:30px;
+    }
+
+    .wrapper header {
+        width: 100%;
+        height: 200px;
+    }
+
+    .wrapper nav {
+        width: 21%;
+        height: auto;
+        float:left;
+    }
+        .wrapper nav .menu-holder {
+            flex-direction: column;
+            padding: 0 0 5% 0;
+        }
+
+        .wrapper .content {
+            width: 79%;
+            height: auto;
+            padding-top: 0px;
+            grid-template-columns: 65% 33%;
+            grid-gap:1%;
+            margin-left:21%;
+        }
+            .wrapper .content .promoting .promoting-item {
+                padding: 2%;
+                display: flex;
+            }
+
+}
+
+/*MOBILE*/
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        width: 95%;
+        height: auto;
+        background-color: white;
+        margin: 0 2% 0 2%;
+    }
+
+        .wrapper header a {
+            font-size: 20px;
+        }
+        .wrapper nav {
+            width: 100%;
+            height: auto;
+            float: none;
+        }
+            .wrapper nav .menu-holder {
+                flex-direction: column;
+                padding: 0;
+            }
+
+                .wrapper nav .menu-holder .menu_item input[type=button] {
+                    width: 100%;
+                    padding: 3%;
+                    border-color: white;
+                }
+        .wrapper .content {
+            width: 100%;
+            margin: 0;
+            display: block;
+        }
+            .wrapper .content .welcome {
+                margin: 2%;
+            }
+
+            .wrapper .content .promoting {
+                margin: 2%;
+            }
+
+                .wrapper .content .promoting .promoting-item {
+                    padding: 2%;
+                    display: block;
+                }
+
+            .wrapper .content .news {
+                margin: 2%;
+            }
+
+                .wrapper .content .news .news-item {
+                    padding:2%;
+                }
+            .wrapper .content .msg {
+                padding: 0;
+                margin-top: 0;
+                margin:2%;
+            }
+
+                .wrapper .content .msg .msg-item {
+                    padding: 2%;
+                }
+
+        .wrapper .footer {
+            background-color: greenyellow;
+            width: 100%;
+            height: 100px;
+            text-align:center;
+        }
+
+            .wrapper .footer .footer-content {
+                padding: 0;
+                padding-top:5%;
+            }
+}
