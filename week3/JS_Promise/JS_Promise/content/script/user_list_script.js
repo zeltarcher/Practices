@@ -2,9 +2,11 @@
     let city = document.querySelector("#txtCity").value;
     let url = `${"https://jsonmock.hackerrank.com/api/food_outlets?city=" + city}`;
     console.log(url);
-    let f = fetch(url).then(function (response) {
+    let promise = fetch(url).then(function (response) {
         return response.json();
-    }).then(function (d) {
+    });
+
+    promise.then(function (d) {
         let tbody = document.querySelector("tbody");
         tbody.innerHTML = "";
         let x = d.data.length;
