@@ -1,0 +1,14 @@
+﻿.usertable {
+    text-align: center;
+    border-collapse: collapse;
+    min-height:100px;
+    margin-top:5px;
+}
+
+    .usertable th, .usertable td {
+        padding: 5px 10px;
+    }
+
+    .usertable tbody tr:nth-child(2n+1){
+        background-color:lightgreen;
+    }
