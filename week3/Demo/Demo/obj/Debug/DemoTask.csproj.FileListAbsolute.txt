@@ -1,0 +1,6 @@
+C:\Users\truon\source\repos\Demo\Demo\bin\Debug\Demo.exe.config
+C:\Users\truon\source\repos\Demo\Demo\bin\Debug\Demo.exe
+C:\Users\truon\source\repos\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\truon\source\repos\Demo\Demo\obj\Debug\DemoTask.csproj.CoreCompileInputs.cache
+C:\Users\truon\source\repos\Demo\Demo\obj\Debug\Demo.exe
+C:\Users\truon\source\repos\Demo\Demo\obj\Debug\Demo.pdb

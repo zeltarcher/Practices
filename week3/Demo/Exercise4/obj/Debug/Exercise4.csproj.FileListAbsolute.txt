@@ -1,0 +1,6 @@
+C:\Users\truon\source\repos\Demo\Exercise4\bin\Debug\Exercise4.exe.config
+C:\Users\truon\source\repos\Demo\Exercise4\bin\Debug\Exercise4.exe
+C:\Users\truon\source\repos\Demo\Exercise4\bin\Debug\Exercise4.pdb
+C:\Users\truon\source\repos\Demo\Exercise4\obj\Debug\Exercise4.csproj.CoreCompileInputs.cache
+C:\Users\truon\source\repos\Demo\Exercise4\obj\Debug\Exercise4.exe
+C:\Users\truon\source\repos\Demo\Exercise4\obj\Debug\Exercise4.pdb

@@ -1,0 +1,7 @@
+C:\Users\truon\source\repos\Demo\Exercise7\bin\Debug\Exercise7.exe.config
+C:\Users\truon\source\repos\Demo\Exercise7\bin\Debug\Exercise7.exe
+C:\Users\truon\source\repos\Demo\Exercise7\bin\Debug\Exercise7.pdb
+C:\Users\truon\source\repos\Demo\Exercise7\obj\Debug\Exercise7.csproj.AssemblyReference.cache
+C:\Users\truon\source\repos\Demo\Exercise7\obj\Debug\Exercise7.csproj.CoreCompileInputs.cache
+C:\Users\truon\source\repos\Demo\Exercise7\obj\Debug\Exercise7.exe
+C:\Users\truon\source\repos\Demo\Exercise7\obj\Debug\Exercise7.pdb
