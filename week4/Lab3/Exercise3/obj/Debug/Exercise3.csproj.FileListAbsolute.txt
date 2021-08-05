@@ -1,0 +1,6 @@
+E:\Antra\week4\Lab3\Exercise3\bin\Debug\Exercise3.exe.config
+E:\Antra\week4\Lab3\Exercise3\bin\Debug\Exercise3.exe
+E:\Antra\week4\Lab3\Exercise3\bin\Debug\Exercise3.pdb
+E:\Antra\week4\Lab3\Exercise3\obj\Debug\Exercise3.csproj.CoreCompileInputs.cache
+E:\Antra\week4\Lab3\Exercise3\obj\Debug\Exercise3.exe
+E:\Antra\week4\Lab3\Exercise3\obj\Debug\Exercise3.pdb
