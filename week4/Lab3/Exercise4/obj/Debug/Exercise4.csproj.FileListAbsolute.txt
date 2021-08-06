@@ -1,0 +1,7 @@
+E:\Antra\week4\Lab3\Exercise4\bin\Debug\Exercise4.exe.config
+E:\Antra\week4\Lab3\Exercise4\bin\Debug\Exercise4.exe
+E:\Antra\week4\Lab3\Exercise4\bin\Debug\Exercise4.pdb
+E:\Antra\week4\Lab3\Exercise4\obj\Debug\Exercise4.csproj.AssemblyReference.cache
+E:\Antra\week4\Lab3\Exercise4\obj\Debug\Exercise4.csproj.CoreCompileInputs.cache
+E:\Antra\week4\Lab3\Exercise4\obj\Debug\Exercise4.exe
+E:\Antra\week4\Lab3\Exercise4\obj\Debug\Exercise4.pdb

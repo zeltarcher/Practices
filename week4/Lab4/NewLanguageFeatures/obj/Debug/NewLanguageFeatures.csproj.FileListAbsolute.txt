@@ -1,0 +1,6 @@
+C:\Users\truon\source\repos\Lab4\NewLanguageFeatures\obj\Debug\NewLanguageFeatures.csproj.CoreCompileInputs.cache
+C:\Users\truon\source\repos\Lab4\NewLanguageFeatures\bin\Debug\NewLanguageFeatures.exe.config
+C:\Users\truon\source\repos\Lab4\NewLanguageFeatures\bin\Debug\NewLanguageFeatures.exe
+C:\Users\truon\source\repos\Lab4\NewLanguageFeatures\bin\Debug\NewLanguageFeatures.pdb
+C:\Users\truon\source\repos\Lab4\NewLanguageFeatures\obj\Debug\NewLanguageFeatures.exe
+C:\Users\truon\source\repos\Lab4\NewLanguageFeatures\obj\Debug\NewLanguageFeatures.pdb
